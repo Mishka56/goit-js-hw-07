@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+ 
+}
+ul  {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.3;
+letter-spacing: 0.04em;
+color: #2e2f42;
+margin-top: 0;
+}
+
+.gallery-img {
+  width:360px;
+  height: 300px;
+
+}
+.gallery {
+  gap: 48px 24px;
+  justify-content: center;
+  padding: 100px 156px; 
+ 
+}
+
+#categories {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+.item {
+font-family: "Montserrat", sans-serif;
+display: flex;
+align-items: center;
+flex-direction: column;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+padding: 16px;
+margin-bottom: 24px;
+  background-color: #f6f6fe;
+}
+
+.category-list {
+  display: block;
+  
+}
+
+.category-item {
+  display: flex;
+padding-left: 0;
+border: 1px solid #808080;
+border-radius: 4px;
+padding-left: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+width: 360px;
+height: 40px;
+margin-bottom: 8px;
+}
+
+#name-input {
+ display: block;
+ 
+}
+
+#name-input::placeholder {
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+}
+
+.title {
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.3;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.input-class {
+  display: flex;
+  width: 360px;
+  height: 40px;
+margin-bottom: 8px;
+border-color: #808080;
+}
+
+.input-class:hover {
+border-color: #000;
+}
+
+.input-class[type="email"]::placeholder {
+  padding: 16px 8px;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form button {
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color: #4e75ff;
+border-radius: 8px;
+padding: 8px 16px;
+width: 86px;
+height: 40px;
+margin-top: 8px;
+}
+
+.login-form button:hover {
+ background-color: #6c8cff;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.widget p {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+text-align: center;
+}
+
+.widget button {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background-color: #4e75ff;
+border-radius: 8px;
+padding: 8px;
+width: 148px;
+height: 40px;
+text-align: center;
+border: none;
+}
+
+.widget button:hover {
+  background-color: #6c8cff;
+}
