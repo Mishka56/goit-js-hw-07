@@ -5,8 +5,11 @@ form.addEventListener('submit', (event) => {
 	event.preventDefault();
 	const getEmail = form.elements['email'].value.trim();
 	const getPass = form.elements['password'].value.trim();
-	 form.elements['password'].value !== "" && form.elements['email'].value ? form.value !== "" : alert(`All form fields must be filled in`);
-	console.log(
+	if (getEmail === "" || getPass === "") {
+		alert(`All form fields must be filled in`);
+		return
+	}
+		console.log(
 		{ Email: getEmail, Password: getPass }
 	);
 	form.reset();

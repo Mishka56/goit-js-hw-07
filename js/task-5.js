@@ -10,7 +10,8 @@ const getSpan = getBody.querySelector(".widget span")
 
 
 getButton.addEventListener("click", (event) => {
-  getBody.style.backgroundColor = getRandomHexColor();
-  getBody.querySelector("span");
-  getSpan.textContent = getRandomHexColor();
+  const color = getRandomHexColor();
+  getBody.style.backgroundColor = color;
+  getSpan.textContent = color;
 })
+
